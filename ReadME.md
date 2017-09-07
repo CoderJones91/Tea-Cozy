@@ -1,1 +1,2 @@
-#Tea Cozy Codecademy Project
+# Tea Cozy Codecademy Project
+> By ** Anthony Jones **
