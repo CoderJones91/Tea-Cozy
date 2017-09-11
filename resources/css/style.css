@@ -7,8 +7,8 @@ body, *{
     opacity: 0.9;
     text-align: center;
     margin: 0;
-
 }
+/* Header Section */
 .flex-container{
     display: flex;
     justify-content: center;
@@ -37,7 +37,6 @@ nav span{
 }
 /* Main Content Container */
 .main{
-    
     width: 1200px;
     padding-top: 69px;
     margin: auto;
@@ -54,4 +53,23 @@ nav span{
 }
 h2, h4{
     padding: 10px;
+}
+/* Store Section */
+.store{
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+    padding-top: 60px; 
+}
+.item{
+    padding: 5px;
+}
+.item img{
+    height: 200px;
+    width: 300px;
+    display: block;
+    margin: 10px;
+}
+.item span{
+    
 }
