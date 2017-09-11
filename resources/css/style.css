@@ -1,5 +1,5 @@
 /* All Elements */
-body, *{
+body{
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -7,6 +7,7 @@ body, *{
     opacity: 0.9;
     text-align: center;
     margin: 0;
+    
 }
 /* Header Section */
 .flex-container{
@@ -21,7 +22,7 @@ header{
     width: 100%;
     z-index: 1;
     align-items: center;
-    
+    background-color: black;
 }
 header img{
     height: 50px;
@@ -35,11 +36,16 @@ nav{
 nav span{
     padding-right: 10px;
 }
+a:hover,a:visited,a:link{
+    color: seashell;
+}
 /* Main Content Container */
 .main{
     width: 1200px;
     padding-top: 69px;
     margin: auto;
+    opacity: 0.9;
+    height: 2179px;
 }
 #mission{
     height: 700px;
@@ -52,10 +58,11 @@ nav span{
     background-color: black;
 }
 h2, h4{
+    margin: 0;
     padding: 10px;
 }
 /* Store Section */
-.store{
+#store{
     margin: 0 auto;
     width: 1000px;
     height: 700px;
@@ -69,7 +76,29 @@ h2, h4{
     width: 300px;
     display: block;
     margin: 10px;
+    border-radius: 5px;
 }
-.item span{
-    
+/* Locations Section */
+#locations{
+    padding-top: 60px;
+    height: 500px;
+    margin-top: 65px;
+    background-image: url(../images/locationsbackground.jpg);
+}
+#locations .flex-container{
+    margin: auto;  
+}
+.flex-container.locations{
+    padding-top: 5px;   
+}
+.location{
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    display: flex;
+    flex-basis: 273px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 5px;
 }
