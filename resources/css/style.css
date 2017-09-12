@@ -6,8 +6,7 @@ body{
     background-color: black;
     opacity: 0.9;
     text-align: center;
-    margin: 0;
-    
+    margin: 0;   
 }
 /* Header Section */
 .flex-container{
@@ -102,3 +101,14 @@ h2, h4{
     background-color: black;
     border-radius: 5px;
 }
+/*Footer Section */
+footer{
+    height: 200px;
+    margin-top: -80px;
+}
+.copyright{
+    text-align: left;
+    margin-left: 20px;
+    font-family: cursive;  
+}
+
